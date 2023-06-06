@@ -9,7 +9,7 @@
 
 /* HEADER */
 
-header{
+#height_header{
     height: 60px;
 }
 
@@ -42,6 +42,32 @@ aside nav ul li > a{
 
 /* MAIN */
 
+.bg_color_section_main{
+    background-color: #F7F7F7;
+}
+
 .main-section{
     height: calc(100vh - 60px);
+}
+
+.bg_main_header{
+    background-color: #1B72E8;
+}
+
+.col-7 > img{
+    height: 25px;
+}
+
+.border_row{
+    border: 0.5px solid #808080;
+}
+
+hr{
+    width: 100%;
+    margin: 5px 0 0 0; 
+}
+
+#img_section{
+    height: 160px;
+    width: auto;
 }

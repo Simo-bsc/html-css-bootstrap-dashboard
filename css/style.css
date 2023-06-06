@@ -1,0 +1,47 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+
+header{
+    height: 60px;
+}
+
+.bg_header{
+    background-color: #F8F9FA;
+}
+
+
+/* ASIDE */
+
+aside{
+    width: 100px;
+    z-index: 1;
+}
+
+aside nav ul li{
+    list-style: none;
+}
+
+aside nav ul li > a{
+    text-decoration: none;
+    color: white;
+}
+
+.bg_aside{
+    background-image: url(img/sidebar-bg.png);
+    background-color: #0F283C;
+}
+
+
+/* MAIN */
+
+.main-section{
+    height: calc(100vh - 60px);
+}
